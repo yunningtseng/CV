@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>My Fictional Adress</p>
+    <p>0912345678</p>
+    <p>123@gmail.com</p>
+
+    <form action="mailto:winnie@gmail.com" method="post" enctype="text/plain">
+        <!--mailto: 收件者信箱-->
+        <!--enctype="text/plain:以信件文字格式排列顯示使用者輸入的內容 -->
+       <label>Your Name:</label>
+       <!-- name:  可用來檢查使用者輸入資訊是否正確，如Email是否少了@，則會跳出錯誤訊息-->
+       <input type="text"" name="Your Name" value=""><br>
+       <label>Email:</label>
+       <input type="email" name="Your Email" id=""><br>
+       <label>Your Message:</label><br>
+       <textarea name="Your Message" id="" cols="30" rows="10"></textarea><br>
+       <!--cols:顯示框框的長度(橫向)， rows:顯示框框預設的高度(縱向)-->
+       <input type="submit">
+    </form>
+
+
+    </body>
+</body>
+</html>
